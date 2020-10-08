@@ -18,7 +18,7 @@ a:focus,
 }
 
 .header__hero {
-    background: url(../images/hero-header-image.jpg) center center /cover;
+    background: url(../images/hero-header-image.jpg) no-repeat fixed center center /cover;
     height: 45vh;
     min-height: 350px;
 }
