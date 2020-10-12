@@ -38,6 +38,11 @@ a:focus,
     top: 19px;
 }
 
+.main-content-search__form .form-group .arrow-down {
+    left: auto;
+    right: 15px;
+}
+
 .main-content-search__form .form-group .form-control {
     padding-left: 2.5rem;
     padding-right: 0.5rem;
@@ -45,6 +50,7 @@ a:focus,
 
 .main-content-search__form .form-group .form-control, .main-content-search__form .btn-primary {
     height: 55px;
+    appearance: none;
 }
 
 .main-content-popular__category-wrap {
