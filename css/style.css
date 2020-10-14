@@ -1,3 +1,7 @@
+body {
+    background-color: #f7f7f7;
+}
+
 h1, h2, h3, h4 {
     color: #0e1111;
     font-weight: 700;
@@ -212,6 +216,10 @@ a:focus,
         flex: 0 0 50%;
         max-width: 50%;
     }
+}
+
+[class^=col-] {
+    transition: .4s;
 }
 
 @media (max-width: 600px) {
